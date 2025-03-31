@@ -37,7 +37,12 @@ async function setupCamera() {
     } catch (error) {
         console.error('Camera error:', error);
         hideLoading();
-        alert(`Camera Error: ${error.message}`);
+        const errorMsg = `Camera Error: ${error.message}`;
+        document.getElementById('errorToast').textContent = errorMsg;
+        document.getElementById('errorToast').classList.remove('hidden');
+        setTimeout(() => {
+            document.getElementById('errorToast').classList.add('hidden');
+        }, 5000);
         return false;
     }
 }
