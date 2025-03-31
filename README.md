@@ -2,7 +2,7 @@
 Ishaarey is an innovative Indian Sign Language translation platform designed to facilitate communication between deaf/hard-of-hearing individuals and the hearing community. The web-based solution offers:
 
 Core Functionality:
-    Real-time ISL gesture recognition
+    \nReal-time ISL gesture recognition\n
     Instant text translation
     Natural speech output
     Multi-language support (Hindi, Tamil, Bengali etc.)
