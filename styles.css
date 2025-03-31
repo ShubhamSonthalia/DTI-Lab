@@ -1,0 +1,101 @@
+/* Custom styles */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.high-contrast {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity)) !important;
+    color: white !important;
+}
+
+body.high-contrast .bg-white {
+    background-color: black !important;
+    color: white !important;
+    border-color: yellow !important;
+}
+
+body.high-contrast .text-gray-800 {
+    color: white !important;
+}
+
+body.high-contrast .text-gray-500 {
+    color: #ccc !important;
+}
+
+/* Dark mode styles */
+.dark {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+    color: white;
+}
+
+.dark .bg-white {
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
+    color: white !important;
+}
+
+.dark .bg-gray-100 {
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity)) !important;
+}
+
+.dark .text-gray-800 {
+    color: white !important;
+}
+
+.dark .text-gray-500 {
+    color: rgb(156 163 175 / var(--tw-bg-opacity)) !important;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#translationText div {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr !important;
+        height: auto;
+    }
+    
+    #webcam {
+        height: 300px !important;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #374151;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #6b7280;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+}
