@@ -114,7 +114,7 @@ def start_predictions():
 
 @app.route('/')
 def index():
-    return render_template('index.html') 
+    return "Api success"
 
 
 @app.route('/predict', methods=['POST'])
