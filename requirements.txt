@@ -3,6 +3,6 @@ flask-cors==4.0.0
 tensorflow==2.19.0
 mediapipe==0.10.21
 opencv-python==4.9.0.80
-numpy==1.24.4
+numpy==1.26.4
 matplotlib==3.8.4
 gunicorn==22.0.0
