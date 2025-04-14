@@ -112,6 +112,11 @@ def start_predictions():
             'status': 'error'
         }), 500
 
+@app.route('/')
+def index():
+    return "✅ Sign Language Detection API is running!"
+
+
 @app.route('/predict', methods=['POST'])
 def predict():
     global sequence, is_predicting
