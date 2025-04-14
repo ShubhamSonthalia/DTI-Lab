@@ -22,7 +22,7 @@ Development Approach:
 
 
 
-Preview of website deployment : https://effulgent-souffle-7879ee.netlify.app/
+Preview of website deployment : https://idyllic-paletas-121f9c.netlify.app/
 
 
 Dataset link : https://drive.google.com/drive/folders/1-lTvmomtaQJrCn4aeScNhFGY1RMiDc6X?usp=sharing
