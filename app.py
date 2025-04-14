@@ -114,7 +114,7 @@ def start_predictions():
 
 @app.route('/')
 def index():
-    return "✅ Sign Language Detection API is running!"
+    return render_template('index.html') 
 
 
 @app.route('/predict', methods=['POST'])
