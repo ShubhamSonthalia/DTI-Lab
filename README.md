@@ -22,7 +22,6 @@ Development Approach:
 
 
 
-Preview of website deployment : https://idyllic-paletas-121f9c.netlify.app/
-
+Preview of website deployment : https://ishaarey.netlify.app/
 
 Dataset link : https://drive.google.com/drive/folders/1-lTvmomtaQJrCn4aeScNhFGY1RMiDc6X?usp=sharing
